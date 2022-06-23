@@ -2,6 +2,8 @@
 Code for the paper [The Geometry of Multilingual Language Model Representations](https://arxiv.org/abs/2205.10964) (2022).
 Includes code for identifying affine language subspaces in multilingual language models, evaluating perplexities when representations are projected onto language subspaces, computing subspace distances, and visualizing representations projected onto various axes and subspaces.
 
+<img src="visualizations_graphic.png" alt="Sample visualizations." width="90%" />
+
 Visualizations require only steps 0 and 3 below.
 For more detailed usage, see comments in the individual Python scripts.
 Run on Python 3.7.9 (see requirements.txt).
