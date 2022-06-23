@@ -5,7 +5,7 @@ Sample usage:
 
 python3 tokenize_examples.py --tokenizer="xlm-roberta-base" \
 --input_dir="../../oscar_data" --output_dir="../../oscar_xlmr_tokenized" \
---max_examples=-1 --max_segments=-1 --max_seq_len=512
+--max_examples=8000000 --max_segments=-1 --max_seq_len=512
 
 """
 

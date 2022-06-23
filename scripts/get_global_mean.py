@@ -6,7 +6,7 @@ Sample usage:
 
 python3 get_global_mean.py --layer=8 \
 --input_dir="../../oscar_xlmr_eval/subspace_cache" \
---output="../../oscar_xlmr_eval/oscar_xlmr_layer8_mean.npy"
+--output="../../oscar_xlmr_eval/global_layer8_mean.npy"
 
 """
 

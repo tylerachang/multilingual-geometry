@@ -27,7 +27,6 @@ from transformers import (
     AutoTokenizer,
     AutoModelForMaskedLM,
     HfArgumentParser,
-    TrainingArguments,
 )
 
 from src.utils import run_eval, project_xlmr_model, ProjectionEvalArguments
@@ -78,6 +77,7 @@ def main():
     eval_args = parser.parse_args_into_dataclasses()[0]
 
     # Load model.
+    print("Loading model...")
     config = AutoConfig.from_pretrained(
         eval_args.model_name_or_path,
         cache_dir=eval_args.cache_dir,

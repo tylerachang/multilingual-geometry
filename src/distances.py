@@ -42,6 +42,7 @@ def random_scaling(dim_size, scale=1.0):
 
 
 # Computes the distance between two subspaces with shapes (dim_size, dim_a) and (dim_size, dim_b).
+# Assumes orthonormal columns.
 # Optionally can include the remaining dimensions (subspace shapes: dim_size, dim_size) and
 # specify the subspace size. Some metrics (e.g. Riemann) also require
 # the s vectors (s_a, s_b) from SVD with shapes (dim_a) and (dim_b). When squared,
