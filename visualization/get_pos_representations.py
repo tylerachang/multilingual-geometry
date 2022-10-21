@@ -4,7 +4,7 @@ Outputs a pickled dictionary for each POS, mapping languages to representations
 in that language for the given POS. Representations must have already been
 saved in RAW_REPS_DIR from corresponding tokenized examples in
 TOKENIZED_EXAMPLES_DIR (see readme and extract_representations.py).
-Please ensure that the directory locations are correct in directories.py.
+Please ensure that the directory locations are correct in visualization_constants.py.
 Sample usage:
 
 python3 get_pos_representations.py \

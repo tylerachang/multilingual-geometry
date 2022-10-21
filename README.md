@@ -1,13 +1,13 @@
 # multilingual-geometry
 Code for the paper [The Geometry of Multilingual Language Model Representations](https://arxiv.org/abs/2205.10964) (2022).
 Includes code for identifying affine language subspaces in multilingual language models, evaluating perplexities when representations are projected onto language subspaces, computing subspace distances, and visualizing representations projected onto various axes and subspaces.
+Sample usage is provided online in the Google Colab notebook [here](https://colab.research.google.com/drive/1DxEi6_gg3WLaUWwz61-JQ7iwykyN1hud?usp=sharing).
 
 <img src="visualizations_graphic.png" alt="Sample visualizations." width="90%" />
 
 Visualizations require only steps 0 and 3 below.
 For more detailed usage, see comments in the individual Python scripts.
 Run on Python 3.7.9 (see requirements.txt).
-Sample usage is provided online in the Google Colab notebook [here](https://colab.research.google.com/drive/1DxEi6_gg3WLaUWwz61-JQ7iwykyN1hud?usp=sharing).
 
 ## 0. Get tokenized sequences from the OSCAR corpus.
 This step is necessary for any of the sections below.
@@ -125,10 +125,11 @@ visualize_representations_3d(axis0=pos_lda[:, 0], axis1=pos_lda[:, 1], axis2="la
 
 ## Citation.
 <pre>
-@article{chang-etal-2022-geometry,
+@inproceedings{chang-etal-2022-geometry,
   title={The Geometry of Multilingual Language Model Representations},
-  author={Tyler Chang and Zhuowen Tu and Benjamin Bergen},
-  journal={arXiv preprint},
+  author={Tyler A. Chang and Zhuowen Tu and Benjamin K. Bergen},
+  booktitle={Proceedings of the Conference on Empirical Methods in Natural Language Processing},
   year={2022},
+  url={https://arxiv.org/abs/2205.10964},
 }
 </pre>
